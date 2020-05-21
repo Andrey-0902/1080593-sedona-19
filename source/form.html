@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Форма отзыва</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <div>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Форма отзыва</a></li>
+            <li><a href="#">HTML academy</a></li>
+          </div>
+          <li><a href="index.html"><img src="" width="102" height="83" alt="Логотип Седоны"></a></li>
+        </ul>
+        <button>Развернуть меню</button>
+        <button>Свернуть меню</button>
+      </nav>
+      <img src=""  alt="Пейзаж Седоны">
+    </header>
+    <main>
+      <h1 class="main-title">Оставь свой отзыв</h1>
+      <p>Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      <form action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Ваше общее впечатление:</legend>
+          <ul>
+            <li><input type="radio" name="opinion" value="good" id="good"><label for="good">Скорее положительное</label></li>
+            <li><input type="radio" name="opinion" value="bad" id="bad"><label for="bad">Скорее отрицательное</label></li>
+            <li><input type="radio" name="opinion" value="don't-understand" id="don't-understand"><label for="don't-understand">Затрудняюсь ответить</label></li>
+        </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Представьтесь</legend>
+          <ul>
+            <li><label>Имя*:<input type="text" name="name" placeholder="Петр"></label></li>
+            <li><label>Фамилия*:<input type="text" name="family-name" placeholder="Иванов"></label></li>
+            <li><label>Отчество:<input type="text" name="middle-name" placeholder="Александрович"></label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Контактная информация</legend>
+          <ul>
+            <li><label>Телефон*:<input type="number" name="phone-number" placeholder="Введите телефон"></label></li>
+            <li><label>Электронная почта*:<input type="email" name="email" placeholder="Введите e-mail"></label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Посещенные достопримечательности</legend>
+          <ul>
+            <li><input type="checkbox" name="visit-place" value="devil's-bridge" id="devil's-bridge" checked><label for="devil's-bridge">Мост дьявола</label></li>
+            <li><input type="checkbox" name="visit-place" value="bell-mountain" id="bell-mountain" checked><label for="bell-mountain">Гора-колокол</label></li>
+            <li><input type="checkbox" name="visit-place" value="slide-park" id="slide-park" checked><label for="slide-park">Слайд-парк</label></li>
+            <li><input type="checkbox" name="visit-place" value="red-rock" id="red-rock"><label for="red-rock">Красные скалы</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Опишите свои эмоции:</legend>
+          <label for="emotions"></label>
+          <input type="text" name="emotions" placeholder="Опишите подробно все свои восторги" id="emotions"></input>
+        </fieldset>
+        <button type="submit">Отправить отзыв</button>
+        <p>* - Обязательные поля</p>
+      </form>
+    </main>
+    <footer>
+      <p>#visitsedona</p>
+      <ul>
+        <li><a href="#">Твиттер</a></li>
+        <li><a href="#">Фейсбук</a></li>
+        <li><a href="#">Ютуб</a></li>
+      </ul>
+      <p>Разработано</p>
+      <a href="https://htmlacademy.ru/intensive/adaptive"><img src="" alt="Логотип html academy"></a>
+    </footer>
+  </body>
+</html>
